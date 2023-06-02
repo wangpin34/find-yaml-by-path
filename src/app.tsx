@@ -1,4 +1,3 @@
-import "highlight.js/styles/base16/materia.css";
 import { ChangeEvent } from "preact/compat";
 import { useCallback, useState } from "preact/hooks";
 import AlertMgmt, { alert } from "./alert-mgmt";
@@ -10,9 +9,9 @@ first_name: penn
 last_name: wang
 email: guyusay@gmail.com
 experiences:
-  - name: one peace
+  - name: one piece
     description: 10 year
-  - genshen impact: 2.5 year
+  - genshin impact: 2.5 year
     description: the first phone game I like the most
 location: Shanghai
 social:
@@ -83,7 +82,7 @@ export function App() {
               Find
             </button>
             <div class="collapse bg-gray-50 mt-4">
-              <input type="radio" name="my-accordion-1" checked="checked" />
+              <input type="radio" name="my-accordion-1" checked={false} />
               <div class="collapse-title text-base font-medium">About Path</div>
               <div class="collapse-content">
                 Path sytax: <br />
