@@ -30,9 +30,9 @@ first_name: penn
 last_name: wang
 email: guyusay@gmail.com
 experiences:
-  - name: one peace
+  - name: one piece
     description: 10 year
-  - genshen impact: 2.5 year
+  - genshin impact: 2.5 year
     description: the first phone game I like the most
 location: Shanghai
 social:
