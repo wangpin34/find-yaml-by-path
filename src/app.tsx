@@ -5,11 +5,6 @@ import AlertMgmt, { alert } from "./alert-mgmt";
 import "./app.css";
 import YamlEditor from "./yaml-editor";
 
-async function loadYaml() {
-  const resp = await fetch("./sample.yaml");
-  return resp.text();
-}
-
 const YAML_FOR_GUIDE = `# Yaml for Guide
 first_name: penn
 last_name: wang
@@ -58,17 +53,6 @@ export function App() {
       });
     }
   }, [path, yaml]);
-
-  // useEffect(() => {
-  //   if (initialYaml) {
-  //     setYaml((pre) => {
-  //       if (typeof pre === "undefined") {
-  //         return initialYaml;
-  //       }
-  //       return pre;
-  //     });
-  //   }
-  // }, [initialYaml]);
 
   return (
     <>
