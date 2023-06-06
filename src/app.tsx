@@ -88,8 +88,6 @@ export function App() {
                 Path sytax: <br />
                 object property: `social.twitter` <br />
                 array element: `experiences.0`
-                <br />
-                Since
               </div>
             </div>
             <div class="divider">Results</div>
